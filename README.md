@@ -9,7 +9,7 @@
 * Open terminal
 * Type **robot src/main/herokuapp.robot**
 ### Report and Log
-* Open folder *src*
+* Open folder *robot-frameworks*
 * Find file *log.html* for see all logs
 * Find file *report.html* for see all reporting summary
 ##### You can use other ways
