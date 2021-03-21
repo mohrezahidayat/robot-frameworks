@@ -10,7 +10,7 @@ ${base_url}                 https://ghibliapi.herokuapp.com
 ${vehicle}                  /vehicles/
 
 *** Test Cases ***
-Get Data
+Get Vehicles
     Create Session          Get Vehicles         ${base_url}         verify=True
     ${response}=            Get Request          Get Vehicles        uri=${vehicle}
     Log                     ${response.json()}
